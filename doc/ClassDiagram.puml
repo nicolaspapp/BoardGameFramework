@@ -1,0 +1,9 @@
+@startuml
+
+class TicTacToe <<GameApplitcation>> {
+    initSettings(settings)
+    onUserMove(tile)
+    main()
+}
+
+@enduml
