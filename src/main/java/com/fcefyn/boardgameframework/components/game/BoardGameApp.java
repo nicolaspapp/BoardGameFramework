@@ -1,4 +1,4 @@
-package com.fcefyn.boardgameframework.tictactoe;
+package com.fcefyn.boardgameframework.components.game;
 
 import com.fcefyn.boardgameframework.components.tile.TileEntity;
 

@@ -1,17 +1,16 @@
-package com.fcefyn.boardgameframework.tictactoe;
+package com.fcefyn.boardgameframework.apps;
 
-import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
 import com.fcefyn.boardgameframework.components.Board;
+import com.fcefyn.boardgameframework.components.game.TwoPlayerGameApplication;
 import com.fcefyn.boardgameframework.components.tile.TileEntity;
 import com.fcefyn.boardgameframework.components.tile.TileValue;
 
 public class TicTacToe extends TwoPlayerGameApplication {
 
-    private boolean playerOneTurn;
     private Board board;
     private static final int boardRows = 3;
-    private static final int boardColumns = 4;
+    private static final int boardColumns = 3;
 
     @Override
     protected void initSettings(GameSettings settings) {
@@ -24,8 +23,6 @@ public class TicTacToe extends TwoPlayerGameApplication {
 
     @Override
     protected void initGame() {
-        playerOneTurn = true;
-
     }
 
     @Override

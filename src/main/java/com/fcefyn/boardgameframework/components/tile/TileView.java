@@ -1,7 +1,7 @@
 package com.fcefyn.boardgameframework.components.tile;
 
 import com.almasb.fxgl.dsl.FXGL;
-import com.fcefyn.boardgameframework.tictactoe.BoardGameApp;
+import com.fcefyn.boardgameframework.components.game.BoardGameApp;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
 import javafx.animation.Timeline;

@@ -59,7 +59,7 @@
                             <transformers>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.fcefyn.boardgameframework.tictactoe.TicTacToe</mainClass>
+                                    <mainClass>com.fcefyn.boardgameframework.apps.TicTacToe</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

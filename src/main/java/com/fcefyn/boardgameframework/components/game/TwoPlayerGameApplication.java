@@ -1,7 +1,8 @@
-package com.fcefyn.boardgameframework.tictactoe;
+package com.fcefyn.boardgameframework.components.game;
 
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
+import com.fcefyn.boardgameframework.components.game.BoardGameApp;
 import com.fcefyn.boardgameframework.components.tile.TileEntity;
 
 /**
@@ -11,7 +12,7 @@ import com.fcefyn.boardgameframework.components.tile.TileEntity;
  */
 public abstract class TwoPlayerGameApplication extends GameApplication implements BoardGameApp {
 
-    private boolean playerOneTurn;
+    private boolean playerOneTurn = true;
 
     @Override
     protected abstract void initSettings(GameSettings gameSettings);
