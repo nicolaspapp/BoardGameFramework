@@ -24,4 +24,8 @@ public class Board {
             }
         }
     }
+
+    public TileEntity[][] getTiles(){
+        return board;
+    }
 }
